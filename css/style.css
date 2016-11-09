@@ -1,0 +1,289 @@
+*{
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+	body {
+		font-family: 'Orbitron', sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333;
+		background-color: #efefef;
+	}
+
+		.contenedor{
+			max-width: 940px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 0px;
+			max-height: 100%;
+		}
+
+			div.c-izquierda{
+				width: 25%;
+				float: left;
+				position: relative;
+				left: 120px;
+				top:10px;
+				position: fixed;
+				margin: 0;
+
+			}
+
+			.c-izquierda .img-mia{
+				width: 100%;
+
+			}
+
+				ul.lista-menu{
+					list-style: none;
+					padding-left: 0px;
+					clear: both;
+					margin: 0;
+				}
+				ul.lista-menu:after {
+					content: " ";
+					display: table;
+				}
+
+				li.item{
+					border-bottom: 1px solid white;
+					padding: 0px;
+					line-height: 44px;
+					background-color: #999;
+					display: inline-block;
+					width: 100%;
+					margin-right: auto;
+				}
+
+				.icono{
+					width: 24px;
+					height: 24px;
+					float: left;
+					background-position: 0px 0px;
+					background-size: cover;
+					margin: 10px 20px;
+				}
+
+					.img{
+						background-size: cover;
+						width: 100%;
+						min-height: 140px;
+						background-position: 0;
+					}
+
+					.icono.img-sobre-mi{
+						background-image: url(../img/iconos/sobre-mi.png)
+					}
+
+					.icono.img-estudios{
+						background-image: url(../img/iconos/educacion.png)
+					}
+
+					.icono.img-exp-laboral{
+						background-image: url(../img/iconos/experiencia-laboral.png);
+					}
+
+					.icono.img-hobbies{
+						background-image: url(../img/iconos/hob.png);
+					}
+				a{
+					text-decoration: none;
+				}
+
+				p.texto{
+					font-weight: 700;
+					font-size: 12px;
+					line-height: 45px;
+					text-align: right;
+					text-transform: uppercase;
+					color: #85878b;
+					margin: 0px;
+					padding-right: 5px;
+				}
+
+				ul.lista-menu li a p.texto:hover{
+					color: white;
+					background-color: black;
+				}
+
+				   .redes{
+				   	display: block;
+				    padding-top: 10px;
+				    padding-bottom: 10px;
+				    padding-left: 26%;
+				    background-color: #ffffff;
+				    text-align: center;
+				}
+				.red{
+					width: 30px;
+				    height: 30px;
+				    margin-right: 4px;
+				    margin-left: 4px;
+				    float: left;
+				    display: inline-block;
+				}
+				.red.facebook{
+					background-image: url(../img/redes-facebook.png);
+					background-position: 0px 0px;
+					background-size: cover;
+				}
+
+				.red.facebook:hover{
+					background-image: url(../img/redes-facebook-hover.png);
+				}
+
+				.red.twitter{
+					background-image:  url(../img/redes-twitter.png);
+					background-position: 0px 0px;
+					background-size: cover;
+				}
+
+				.red.twitter:hover{
+					background-image: url(../img/redes-twitter-hover.png);
+				}
+
+				.red.instagram{
+					background-image: url(../img/redes-instagram.png);
+					background-position: 0px 0px;
+					background-size: cover;
+				}
+
+				.red.instagram:hover{
+					background-image: url(../img/redes-instagram-hover.png);
+				}
+
+
+			div.c-derecha{
+				background-color: #BDBDBD;
+				width: 72%;
+				float: right;
+			}
+
+				.sobre-mi{
+					padding:30px 40px;
+				}
+
+					h1.titulo-seccion {
+						font-size: 30px;
+						font-weight: 800;
+						text-transform: uppercase;
+						padding: 30px 10px 10px 40px;
+						border-bottom: 1px solid #efefef;
+					}
+
+					section.estudios h1.titulo-seccion{
+						clear: both;
+					}
+
+					h1.nombre{
+						font-size: 28px
+						line-height: 25px;
+						text-transform: uppercase;
+						margin-top: 0px;
+						margin-bottom: 0px;
+					}
+
+					h2.profesion{
+						color: #777;
+						font-size: 22px;
+						font-weight: 300;
+						line-height: 30px;
+						text-transform: uppercase;
+						margin-top: 0px;
+					}
+
+					p.intro{
+						font-size: 14px;
+						color: #333;
+						line-height: 22px;
+						font-weight: 300;
+					}
+
+					ul.datos-personales{
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						float: left;
+						font-size: 12px;
+					    border: 1px solid black;
+					    text-align: center;
+					    margin-bottom: 20px;
+						width: 50%;
+					}
+
+					ul.datos-personales li{
+						border-bottom: 1px solid black;
+						vertical-align: top;
+					}
+
+					ul.datos-personales.b{
+					}
+
+					ul.datos-personales.a{
+
+					}
+
+					div.titulo{
+						color: #333;
+						font-size: 12px;
+						font-weight: 700;
+						text-align: center;
+						display: inline-block;
+						width: 35%;
+						padding-top: 8px;
+						padding-bottom: 8px;
+						border-right: 1px solid grey;
+					}
+
+					div.valor{
+						color: #666
+						font-size: 14px;
+						text-align: center;
+						display: inline-block;
+						width: 63%;
+						padding-bottom: 8px;
+						padding-top: 8px;
+					}
+				p{
+					font-size: 13px;
+				}
+
+				.estudios{
+					padding:30px 40px;
+				}
+
+					h6{
+						font-size: 16px;
+					}
+				.experiencia-laboral{
+					padding:30px 40px;
+				}
+				.hobbies{
+					padding:30px 40px;
+				}
+					.hobbie{
+						width: 31%;
+						margin: 0 1%;
+						float:left;
+					}
+					.img.videojuego{
+						background-image: url(../img/Videojuegos.jpg);
+					}
+					.img.leer{
+						background-image: url(../img/Leer.jpg);
+					}
+					.img.TCG{
+						background-image: url(../img/TCG.jpg);
+					}
+					.img.natacion{
+						background-image: url(../img/Natacion.jpg);
+					}
+					
+					.descripcion{
+						font-weight: bold;
+						font-size: 17px;
+					}
